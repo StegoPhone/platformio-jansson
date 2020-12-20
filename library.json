@@ -1,0 +1,32 @@
+{
+  "name": "Jansson",
+  "version": "2.13.2",
+  "description": "PlatformIO wrapper on jansson. Jansson is a C library for encoding, decoding and manipulating JSON data.",
+  "keywords": "json",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/StegoPhone/jansson.git"
+  },
+  "include": "src",
+  "authors":
+  [
+    {
+      "name": "Jessica Mulein",
+      "email": "jessica@mulein.com",
+      "url": "https://github.com/JessicaMulein",
+      "maintainer": true
+    },
+    {
+      "name": "Petri Lehtinen",
+      "email": "petri@digip.org",
+      "url": "https://github.com/akheron"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/StegoPhone/jansson/blob/master/LICENSE",
+  "dependencies": {
+  },
+  "frameworks": "arduino, teensy",
+  "platforms": "*"
+}
